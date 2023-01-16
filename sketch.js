@@ -28,7 +28,7 @@ function setup() {
   var ground_options ={
     isStatic: true
   };
-  ground = Bodies.rectangle(0,400,400,20,ground_options);
+ // ground = Bodies.rectangle(0,400,400,20,ground_options);
  World.add(world,ground); 
   btn2 = createImg('up.png');
   btn2.position(20,30);
@@ -55,7 +55,7 @@ function draw()
   
 
   ellipse(ball.position.x,ball.position.y,20);
- rect(ground.position.x,ground.position.y,750,20);
+// rect(ground.position.x,ground.position.y,750,20);
     fan.show();
 fan1.show();
 fan2.show();
